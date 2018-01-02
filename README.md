@@ -4,10 +4,14 @@
 1.测试一个视频
 ==
 * 在测试文件夹中一个视频的rgb,光流图是放在一起的，现在要把两种模态放在不同的文件夹里
-	* 输入：
 	
+输入：	
+
 ![image](https://github.com/milkcat0904/move-frame-flow/raw/master/pic/input.PNG)
-	* 输出：
+	
+
+
+输出：
 	
 ![image](https://github.com/milkcat0904/move-frame-flow/raw/master/pic/output.png)
 
