@@ -18,7 +18,22 @@
   `frame_path`——存放rgb的文件夹路径
   
   `flow_path`——存放flow的文件夹路径
-  
+
+* 移动依据：
+	* 将图片文件名用‘_’拆开，第一项记为`pic_type`
+	
+	
+		if pic_type = 'img':
+		
+			把这个pic放在frame_path里：
+			
+			shutil.move(pic_path, frame_path)
+			
+		else：
+		
+			放在flow_path里
+			
+			shutil.move(pic_path, flow_path)
 
 * 运行程序:
 
