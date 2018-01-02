@@ -2,7 +2,7 @@
 批量将rgb,flow图放在指定文件夹里
 
 1.测试一个视频
-==
+=
 * 在测试文件夹中一个视频的rgb,光流图是放在一起的，现在要把两种模态放在不同的文件夹里
 	
 输入：	
@@ -38,3 +38,10 @@
 * 运行程序:
 
 		$ python remake_frames_flow.py
+
+
+2.数据集
+=
+
+* 将一个数据集里所有视频都进行移动处理
+	* $ python remake_dataset_frames_flow
