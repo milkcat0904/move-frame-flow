@@ -44,4 +44,5 @@
 =
 
 * 将一个数据集里所有视频都进行移动处理
-	* $ python remake_dataset_frames_flow
+		
+		$ python remake_dataset_frames_flow.py
