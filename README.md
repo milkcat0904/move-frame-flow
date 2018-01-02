@@ -7,9 +7,7 @@
 	
 输入：	
 
-![image](https://github.com/milkcat0904/move-frame-flow/raw/master/pic/input.PNG)
-	
-
+![image](https://github.com/milkcat0904/move-frame-flow/raw/master/pic/input.PNG)	
 
 输出：
 	
