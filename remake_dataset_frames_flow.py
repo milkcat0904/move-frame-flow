@@ -28,8 +28,8 @@ for vid in video_list: #读取每个视频，每次循环时文件名记为vid
     mkdir(flow_path)
     mkdir(frame_path)
 
-    vid_path = os.path.join(dataset_path, vid)#数据集里每个视频的路径为dataset_path+vid
-    img_list = os.listdir(vid_path)#打开视频文件夹，里面所有图片组成一个list
+    vid_path = os.path.join(dataset_path, vid) #数据集里每个视频的路径为dataset_path+vid
+    img_list = os.listdir(vid_path) #打开视频文件夹，里面所有图片组成一个list
     #move
     for pic in img_list:
         pic_path = os.path.join(vid_path, pic)
